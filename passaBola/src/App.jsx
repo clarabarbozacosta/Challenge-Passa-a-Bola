@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Campeonatos from "./pages/Campeonatos";
+import Campeonatos from "./pages/Campeonato";
 import Escolinhas from "./pages/Escolinhas";
-import Galeria from "./pages/Galeria";
 import Jogos from "./pages/Jogos";
-import Sobre from "./pages/SobreNos";
+import SobreNos from "./pages/SobreNos";
 import Loja from "./pages/Loja";
+import Fotos from "./pages/Fotos";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Campeonatos />} />
           <Route path="/escolinhas" element={<Escolinhas />} />
-          <Route path="/galeria" element={<Galeria />} />
+          <Route path="/fotos" element={<Fotos />} />
           <Route path="/jogos" element={<Jogos />} />
           <Route path="/sobre" element={<SobreNos />} />
           <Route path="/loja" element={<Loja />} />
