@@ -104,33 +104,7 @@ const Fotos = () => {
           ))}
         </div>
       </section>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-        <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8">
-          <div className="text-center">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
-              Compartilhe suas Fotos
-            </h2>
-            <p className="text-gray-600 mb-8">
-              Tem fotos incríveis do seu time? Compartilhe conosco!
-            </p>
-            <div className="border-2 border-dashed border-gray-300 rounded-xl p-12 hover:border-purple-400 transition-colors cursor-pointer group">
-              <div className="text-gray-500 group-hover:text-purple-500 transition-colors">
-                <svg className="mx-auto h-16 w-16 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                </svg>
-                <p className="text-xl font-semibold mb-2">Clique para fazer upload</p>
-                <p className="text-sm text-gray-400">ou arraste e solte suas fotos aqui</p>
-                <p className="text-xs text-gray-400 mt-2">JPG, PNG até 10MB cada</p>
-              </div>
-            </div>
-            <div className="mt-6 flex flex-wrap gap-4 justify-center">
-              <button className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors font-semibold">
-                Selecionar Fotos
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </main>
   );
 };

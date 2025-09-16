@@ -54,12 +54,12 @@ const Campeonato = () => {
                         <div className="grid lg:grid-cols-5 gap-6 lg:gap-8 items-start">
 
                             <div className="order-2 lg:order-1 lg:col-span-3">
-                                <h1>⚽ Hora de entrar em campo!</h1>
+                                <h1>Hora de entrar em campo!</h1>
                                 <p className="text-gray-700 leading-relaxed mb-6 text-sm sm:text-base">
                                     O Campeonato Passa a Bola Feminino está chegando, e é a sua chance de mostrar talento, se divertir e viver a emoção do futebol! Monte seu time e venha disputar grandes partidas em um ambiente acolhedor e cheio de energia.
                                 </p>
                                 <h2 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">
-                                    💪 Porque você não pode ficar de fora:
+                                    Porque você não pode ficar de fora:
                                 </h2>
                                 <p className="text-gray-700 leading-relaxed mb-6 text-sm sm:text-base">
                                     Jogos emocionantes e cheios de adrenalina, reconhecimento e premiações para os melhores times, uma oportunidade de fortalecer amizades e fazer novas conexões.
