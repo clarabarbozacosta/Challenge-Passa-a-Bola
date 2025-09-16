@@ -65,7 +65,7 @@ const Escolinhas = () => {
                                 <button
                                     className="w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold py-3 px-6 rounded-lg hover:from-purple-700 hover:to-pink-600 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
                                 >
-                                    🗺️ Abrir no Google Maps
+                                    Abrir no Google Maps
                                 </button>
                             </a>
                         </div>
