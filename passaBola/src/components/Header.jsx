@@ -30,8 +30,7 @@ export default function Header() {
                 key={item.path}
                 to={item.path}
                 className={({ isActive }) =>
-                  `hover:text-purple-600 ${
-                    isActive ? "border-b-2 border-purple-600 pb-1" : ""
+                  `hover:text-purple-600 ${isActive ? "border-b-2 border-purple-600 pb-1" : ""
                   }`
                 }
               >
@@ -39,10 +38,15 @@ export default function Header() {
               </NavLink>
             ))}
           </nav>
-            
+
           <div className="hidden md:block">
-            <img src={avatar} alt="Perfil" className="w-10 h-10 rounded-full border-2 border-purple-600" />
-          </div>
+            <Link to="/login" aria-label="Ir para Login" title="Ir para Login">
+              <img
+                src={avatar}
+                alt="Perfil"
+                className="w-10 h-10 rounded-full border-2 border-purple-600 cursor-pointer"
+              />
+            </Link></div>
           <button
             className="md:hidden text-gray-800"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -61,8 +65,7 @@ export default function Header() {
                   to={item.path}
                   onClick={() => setMenuOpen(false)}
                   className={({ isActive }) =>
-                    `block text-lg font-medium text-black hover:text-purple-600 ${
-                      isActive ? "text-purple-700 font-bold" : ""
+                    `block text-lg font-medium text-black hover:text-purple-600 ${isActive ? "text-purple-700 font-bold" : ""
                     }`
                   }
                 >

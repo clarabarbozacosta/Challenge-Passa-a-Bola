@@ -4,6 +4,7 @@ import Campeonato from "./pages/Campeonato";
 import Escolinhas from "./pages/Escolinhas";
 import Jogos from "./pages/Jogos";
 import SobreNos from "./pages/SobreNos";
+import Login from "./pages/Login";
 import Loja from "./pages/Loja";
 import Fotos from "./pages/Fotos";
 import Historia from "./pages/Historia";
@@ -20,6 +21,7 @@ function App() {
           <Route path="fotos" element={<Fotos />} />
           <Route path="jogos" element={<Jogos />} />
           <Route path="sobre" element={<SobreNos />} />
+          <Route path="login" element={<Login />} />
           <Route path="loja" element={<Loja />} />
           <Route path="historia" element={<Historia />} />
           
