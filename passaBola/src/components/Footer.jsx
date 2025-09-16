@@ -1,38 +1,31 @@
-import { Instagram, Youtube, Mail } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
+import logo from "../img/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-purple-800 text-white py-6 mt-10">
-      <div className="max-w-6xl mx-auto flex flex-col items-center space-y-4 md:space-y-2">
- 
-        <p className="text-center text-sm md:text-base">
-          © 2025 Passa a Bola
-        </p>
+    <footer className="bg-white text-gray-800 py-4 rounded-t-lg shadow-lg">
+      <div className="max-w-6xl mx-auto flex flex-col items-center space-y-1">
+        <div className="flex justify-center">
+          <img src={logo} alt="Logo" className="h-16 w-auto" />
+        </div>
 
         <div className="flex space-x-6">
-          <a
-            href="https://www.instagram.com/passaabola/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-pink-300"
-          >
-            <Instagram size={20} /> <span className="hidden sm:inline">Instagram</span>
-          </a>
-
           <a
             href="https://www.youtube.com/@passabola"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 hover:text-pink-300"
+            className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
           >
-            <Youtube size={20} /> <span className="hidden sm:inline">YouTube</span>
+            <Youtube className="w-8 h-6 text-red-600" />
           </a>
 
           <a
-            href="mailto:contato@passaabola.com"
-            className="flex items-center gap-2 hover:text-pink-300"
+            href="https://www.instagram.com/passaabola/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-full hover:bg-gray-200 transition-colors"
           >
-            <Mail size={20} /> <span className="hidden sm:inline">Contato</span>
+            <Instagram className="w-6 h-6 text-pink-600" />
           </a>
         </div>
       </div>
