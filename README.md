@@ -49,21 +49,6 @@ O **Challenge-Passa-a-Bola** oferece:
 - Gestão de campeonatos e geração de confrontos  
 - Comunicação integrada por e-mail e WhatsApp  
 
----
-
-## Demonstração do Projeto
-
-### Tela Principal
-![Tela Principal](caminho/para/screenshot1.png)
-
-### Cadastro de Escolinhas
-![Cadastro de Escolinhas](caminho/para/screenshot2.png)
-
-### Visualização de Produtos
-![Visualização de Produtos](caminho/para/screenshot3.png)
-
-### Galeria de Fotos
-![Galeria de Fotos](caminho/para/screenshot4.png)
 
 ---
 
@@ -88,7 +73,7 @@ git clone <seu-repo>
 cd <seu-repo>
 npm install
 npm start
-
+```
 
 ## Comandos Úteis
 
@@ -152,20 +137,11 @@ Inicia o servidor de desenvolvimento do Vite.
 
 Esse projeto foi feito por? 
 <a href="https://github.com/clarabarbozacosta/Challenge-Passa-a-Bola/graphs/contributors"> 
-<p align="center">
-  <img src="caminho/para/foto1.jpg" alt="Integrante 1" width="50" height="50" style="border-radius:50%; margin:5px;" />
-  <img src="caminho/para/foto2.jpg" alt="Integrante 2" width="50" height="50" style="border-radius:50%; margin:5px;" />
-  <img src="caminho/para/foto3.jpg" alt="Integrante 3" width="50" height="50" style="border-radius:50%; margin:5px;" />
-  <img src="caminho/para/foto4.jpg" alt="Integrante 4" width="50" height="50" style="border-radius:50%; margin:5px;" />
-</p>
 
-
----
-
-## Contato
-
-- Email: seuemail@dominio.com
-- [GitHub Issues](https://github.com/seuusuario/seuprojeto/issues)
+- Brenda Santos 
+- Clara Barboza Costa
+- Lucas Santana Silva
+- Pedro Henrique Lamin Rodrigues
 
 ---
 
