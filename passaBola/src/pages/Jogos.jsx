@@ -78,24 +78,17 @@ const Jogos = () => {
                                 Resultados, horários, locais e tudo o que você precisa saber.
                             </p>
                         </div>
-                        <div className="hidden lg:block">
-                            <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-xl">
-                                <div className="text-center">
-                                    <div className="hidden lg:block">
-                                        <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-xl flex justify-end">
-                                            <button
-                                                onClick={() => window.open("https://www.instagram.com/stories/highlights/17940103676679380/", "_blank")}
-                                                className="inline-flex items-center gap-2 bg-purple-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-pink-600 transition-colors"
-                                            >
-                                                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                                                </svg>
-                                                Acompanhe os Jogos
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="text-center mt-4 lg:mt-0">
+                            <button
+                                aria-label="Abrir Instagram - Acompanhe os Jogos"
+                                onClick={() => window.open("https://www.instagram.com/stories/highlights/17940103676679380/", "_blank")}
+                                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-purple-600 text-white font-semibold px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow hover:bg-pink-600 transition-colors text-sm sm:text-base"
+                            >
+                                <svg className="w-4 h-4 sm:w-6 sm:h-6 text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                                </svg>
+                                <span>Acompanhe os Jogos</span>
+                            </button>
                         </div>
                     </div>
                 </div>
